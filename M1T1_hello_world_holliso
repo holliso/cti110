@@ -1,0 +1,14 @@
+# cti 110
+# M1T1 - Hello World example
+# 8/30
+# Hollis
+
+
+print("Goodbye, World!")
+
+print("This line will be printed.")
+
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
