@@ -1,4 +1,5 @@
-
+# Oliver Hollis
+# 2 function example
 
 def main():
     name = int(input("Whats your name?"))
