@@ -1,0 +1,412 @@
+/* Style sheet created by: Oliver Hollis November 20, 2017 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF;
+
+}
+h1 {
+	color: white;
+	text shadow; 0 0 3px #33cc33;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+	font-style: italic;
+}
+img { 
+	max-width: 100%;
+	padding:3px;
+	border:4px solid #021a40;
+	background-color:#7d80ba;
+	text-align:center;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container, iframe{
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	left: auto;
+	right: auto;
+}
+#container2{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	left: auto;
+	right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066;
+	 
+}
+
+#banner {
+	text-align: center;
+	box-shadow: 1em 1em 1em #331400;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	position: static;
+	left: auto;
+	right: auto;
+	clip: rect(auto,auto,auto,auto,auto);
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and pad-ding for list items within the navigation */
+nav li {
+	background-color: #006699;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+	
+}
+
+/* Style changes navigation link text color to white and re-moves the underline */
+nav li a { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+} 
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for h3 element within an article */
+article h3 {
+	font-family: "Comic Sans MS", cursive;
+	text-align: left;
+}
+
+/* Style for figure element */
+figure {
+	text-align: center;
+}
+
+/* Style for figcaption element */
+figcaption {
+	color: #000066;
+	font-family: "Comic Sans MS", cursive;
+}
+
+/* Style for section element */
+section {
+	padding: 1em;
+}
+
+/* Style for article element */
+article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #E19866;
+	font-weight: bold;
+}
+
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+	position: static;
+	width: auto;
+	left: auto;
+	right: auto;
+	text-align: center;
+}
+
+/* Style rule for label element */
+label {
+	display: inline-block;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+	list-style-type: none;
+	
+}
+
+/* Style rule for svc class */
+.svc {
+	display: inline-block;
+}
+	 
+
+/* Style rule to center align the sound class */
+sound {
+	text-align: left;
+	
+}
+
+/* Styles for tablet viewport */
+@media only screen and (min-width: 481px) {
+
+/* Style specifies display, float, margin, padding, and width for nav list items */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+}
+
+/* Style specifies clear and margin for the main element */
+main {
+	clear: left;
+}
+
+/* Style hides the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style displays the desktop class */
+.desktop {
+	display: inline;
+	box-shadow:0px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+/* Style rule for label element */
+label {
+	float: left;
+	padding-right: 1em;
+	text-align: right;
+	width: 8em;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+}
+
+}
+
+/* Styles for desktop viewport */
+@media only screen and (min-width: 950px) {
+
+/* Style specifies width for container */ 
+#container {
+	width: 80%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */ 
+nav li {
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 20%;
+	white-space: nowrap;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:hover {
+	color: #ffff00;
+	font-size: 1.5em;
+}
+
+/* Style for main specifies border, border radius, box-shadow, and margin */
+main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+		overflow: auto;
+}
+
+/* Style specifies a gradient for the body element */ 
+body {
+	background: -moz-linear-gradient(#ffa62f, #0020c2); /* Firefox */ 
+	background: -o-linear-gradient(#ffa62f, #0020c2); /* Opera */ 
+	background: -webkit-linear-gradient(#ffa62f, #0020c2); /* Chrome, Safari */
+	background: linear-gradient(#ffa62f, #0020c2); 
+}
+
+/* Style for the section article element */
+section article {
+	width: 22%;
+	float: left;
+	height: 15em;
+}
+
+}#container header strong {
+	font-family: "Comic Sans MS", cursive;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 50px;
+}
+#container nav ul li {
+	font-family: "Comic Sans MS", cursive;
+}
+
+}
+video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 175px;
+	width: 390px;
+	height: 100%;
+}
+#container main article p {
+	font-family: "Comic Sans MS", cursive;
+}
+
+/* style for form */
+<style type="text/css">
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 100%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+</style>
+#container main article p {
+	font-style: italic;
+}
