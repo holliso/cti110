@@ -7,10 +7,13 @@
 # import random library
 import random
 count = 0
-
+number = 50
 def main():
 # function to repeat input 
     play_again()
+    print("the number was", number)
+   
+        
     
 def play_again():    
 # in the random range of 1-100 
@@ -20,16 +23,22 @@ def play_again():
     print('Whats the number')
     count = input()
     count = int(count)
-    count==count+1
+    count== count+ 1
     
 # entered number pass through if statements, "While" loop
     
     if count < number:
-        print('Number is too low.') 
+        print('Number is too low.')
+        return number
+        
     if count > number:
         print('number is too high.')
+        play_again()
+        return number
+
     if count == number:
         print('you are correct')
       
              
 main()
+
