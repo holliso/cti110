@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+personal_info, label, {
+	float:right;
+	width: 100px;
+	text-align: right;
+	margin-left:20px;
+	
+	}
+
+fieldset{ 
+	text-align: center;
+	background: linear-gradient(yellow, orange);
+}
+form {
+    display: inline-block;
+    text-align: center;
+	font-family: "Comic Sans MS", cursive; 
+	color: #red;
+}
+
+h1 {
+	text-shadow: 0 5px 10px #ffffff;
+	color: #red;
+}
